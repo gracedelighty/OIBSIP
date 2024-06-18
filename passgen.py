@@ -1,7 +1,7 @@
-# import modules
+
 import string
 import random
-# store all characters in lists
+
 s1 = list(string.ascii_lowercase)
 s2 = list(string.ascii_uppercase)
 s3 = list(string.digits)
@@ -19,9 +19,9 @@ while True:
 			break
 	except:
 		print("Please, Enter numbers only.")
-		user_input = input("How many characters do you want in your password? ")
+		user_input = input("Enter the number of characters required in the password? ")
 
-# shuffle all lists
+
 random.shuffle(s1)
 random.shuffle(s2)
 random.shuffle(s3)
